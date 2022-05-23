@@ -100,7 +100,7 @@
             <terraformType>MODULE</terraformType>
         </localRepository>
         <localRepository>
-            <key>docker-local</key>
+            <key>docker_registry</key>
             <type>docker</type>
             <includesPattern>**/*</includesPattern>
             <repoLayoutRef>simple-default</repoLayoutRef>
