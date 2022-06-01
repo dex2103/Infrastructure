@@ -1,4 +1,8 @@
 pipelineJob('Apps_of_Apps') {
+    parameters {
+        stringParam('backendDockerTag', '', 'Backend docker image tag')
+        stringParam('frontendDockerTag', '', 'Frontend docker image tag')
+    }
     definition {
         cpsScm {
             scm {
